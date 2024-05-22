@@ -1,18 +1,23 @@
-## Description
-Describe the change and/or the issue fixed in this pull request. 
-Please also include the context and motivation about the changes introduced.
+__Ticket link__
 
-## Type of Change
-- New feature
-- Bug fix
-- Documentation
+[PROJECT-TICKET_NUMBER](https://readdle-j.atlassian.net/browse/PROJECT-TICKET_NUMBER)
 
-## Checks
-- [ ] Changes support all platforms (`Android`, `iOS`, `macOS`, `tvOS`)
-- [ ] Breaks existing functionality
-- [ ] Implementation is completed, not half-done 
-- [ ] Is there another PR already created for this feature/bug fix
+__PR description__
 
-## Tests
-How are these changes verified? Please provide test instructions.
-Also list any relevant details about your test configuration.
+- What is the context for this PR?
+- Why did you take the approach you did?
+
+__Screenshot / Videos__
+
+If it would be useful, please, include screenshots, animated GIFs or screencasts of changes in action
+
+__PR submission checklist__
+
+- [ ] PR name contains Jira ticket number
+- [ ] PR have correct target branch
+- [ ] .s7substat has correct subrepos revisions
+- [ ] Common ([Obj-C](https://readdle-c.atlassian.net/wiki/spaces/DOC/pages/3802038524/Common+Objective-C+Code+Style+Guide+for+Docs+PE+iOS+Mac+Teams) / [Swift](https://readdle-c.atlassian.net/wiki/spaces/DOC/pages/4662394906/Common+Swift+Code+Style+Guide+for+Docs+PE+iOS+Mac+Teams)) and your team's coding conventions and style guidelines are followed
+- [ ] Unit tests to cover the critical parts of the code are written
+- [ ] Relevant documentation updated / added if needed
+- [ ] Self-reviewed using the [self-review checklist](https://readdle-c.atlassian.net/wiki/spaces/DOC/pages/4645978135) prior to submitting a PR
+- [ ] All recommendations from the [How to create Pull Request](https://readdle-c.atlassian.net/wiki/spaces/DOC/pages/4568416271/How+to+create+Pull+Request+PR) document are followed
